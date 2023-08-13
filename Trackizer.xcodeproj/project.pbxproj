@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		3B569D4D2A88E8B300AC9DA1 /* TrackizerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B569D4C2A88E8B300AC9DA1 /* TrackizerApp.swift */; };
-		3B569D4F2A88E8B300AC9DA1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B569D4E2A88E8B300AC9DA1 /* ContentView.swift */; };
 		3B569D512A88E8B500AC9DA1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B569D502A88E8B500AC9DA1 /* Assets.xcassets */; };
 		3B569D542A88E8B500AC9DA1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B569D532A88E8B500AC9DA1 /* Preview Assets.xcassets */; };
 		3B569D5E2A88E8B500AC9DA1 /* TrackizerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B569D5D2A88E8B500AC9DA1 /* TrackizerTests.swift */; };
@@ -19,6 +18,7 @@
 		3B569D862A88EC6900AC9DA1 /* Inter-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3B569D822A88EC6900AC9DA1 /* Inter-Regular.ttf */; };
 		3B569D872A88EC6900AC9DA1 /* Inter-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3B569D832A88EC6900AC9DA1 /* Inter-Medium.ttf */; };
 		3B569D8A2A88ED3800AC9DA1 /* UIExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B569D892A88ED3800AC9DA1 /* UIExtension.swift */; };
+		3B569D8C2A88F72E00AC9DA1 /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B569D8B2A88F72E00AC9DA1 /* WelcomeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,7 +41,6 @@
 /* Begin PBXFileReference section */
 		3B569D492A88E8B300AC9DA1 /* Trackizer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Trackizer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B569D4C2A88E8B300AC9DA1 /* TrackizerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackizerApp.swift; sourceTree = "<group>"; };
-		3B569D4E2A88E8B300AC9DA1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		3B569D502A88E8B500AC9DA1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3B569D532A88E8B500AC9DA1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		3B569D592A88E8B500AC9DA1 /* TrackizerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TrackizerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -55,6 +54,7 @@
 		3B569D832A88EC6900AC9DA1 /* Inter-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Inter-Medium.ttf"; path = "../../../../Downloads/Inter-Medium.ttf"; sourceTree = "<group>"; };
 		3B569D882A88EC9100AC9DA1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		3B569D892A88ED3800AC9DA1 /* UIExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIExtension.swift; sourceTree = "<group>"; };
+		3B569D8B2A88F72E00AC9DA1 /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,7 +113,6 @@
 				3B569D782A88E98F00AC9DA1 /* View */,
 				3B569D772A88E96900AC9DA1 /* Font */,
 				3B569D4C2A88E8B300AC9DA1 /* TrackizerApp.swift */,
-				3B569D4E2A88E8B300AC9DA1 /* ContentView.swift */,
 				3B569D502A88E8B500AC9DA1 /* Assets.xcassets */,
 				3B569D522A88E8B500AC9DA1 /* Preview Content */,
 			);
@@ -198,6 +197,7 @@
 		3B569D7D2A88E9F000AC9DA1 /* Login */ = {
 			isa = PBXGroup;
 			children = (
+				3B569D8B2A88F72E00AC9DA1 /* WelcomeView.swift */,
 			);
 			path = Login;
 			sourceTree = "<group>";
@@ -350,8 +350,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3B569D4F2A88E8B300AC9DA1 /* ContentView.swift in Sources */,
 				3B569D8A2A88ED3800AC9DA1 /* UIExtension.swift in Sources */,
+				3B569D8C2A88F72E00AC9DA1 /* WelcomeView.swift in Sources */,
 				3B569D4D2A88E8B300AC9DA1 /* TrackizerApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
