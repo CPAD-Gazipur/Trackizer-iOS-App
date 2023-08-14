@@ -2,7 +2,7 @@
 //  SecondaryButton.swift
 //  Trackizer
 //
-//  Created by OnnoRokom on 14/8/23.
+//  Created by Md. Al-Amin on 14/8/23.
 //
 
 import SwiftUI

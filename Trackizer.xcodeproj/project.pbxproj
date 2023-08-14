@@ -22,8 +22,9 @@
 		3B569D8E2A89D4CA00AC9DA1 /* PrimaryButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B569D8D2A89D4CA00AC9DA1 /* PrimaryButton.swift */; };
 		3B569D902A89D61D00AC9DA1 /* SecondaryButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B569D8F2A89D61D00AC9DA1 /* SecondaryButton.swift */; };
 		3B569D922A89D7AB00AC9DA1 /* SocialSignupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B569D912A89D7AB00AC9DA1 /* SocialSignupView.swift */; };
-		3B569D942A89DC2300AC9DA1 /* SingupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B569D932A89DC2300AC9DA1 /* SingupView.swift */; };
 		3B569D962A89E09700AC9DA1 /* RoundedTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B569D952A89E09700AC9DA1 /* RoundedTextField.swift */; };
+		3B569D982A89E4FF00AC9DA1 /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B569D972A89E4FF00AC9DA1 /* SignInView.swift */; };
+		3B569D9A2A89EE3C00AC9DA1 /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B569D992A89EE3C00AC9DA1 /* SignUpView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,8 +64,9 @@
 		3B569D8D2A89D4CA00AC9DA1 /* PrimaryButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimaryButton.swift; sourceTree = "<group>"; };
 		3B569D8F2A89D61D00AC9DA1 /* SecondaryButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondaryButton.swift; sourceTree = "<group>"; };
 		3B569D912A89D7AB00AC9DA1 /* SocialSignupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocialSignupView.swift; sourceTree = "<group>"; };
-		3B569D932A89DC2300AC9DA1 /* SingupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingupView.swift; sourceTree = "<group>"; };
 		3B569D952A89E09700AC9DA1 /* RoundedTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedTextField.swift; sourceTree = "<group>"; };
+		3B569D972A89E4FF00AC9DA1 /* SignInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInView.swift; sourceTree = "<group>"; };
+		3B569D992A89EE3C00AC9DA1 /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -212,7 +214,8 @@
 			children = (
 				3B569D8B2A88F72E00AC9DA1 /* WelcomeView.swift */,
 				3B569D912A89D7AB00AC9DA1 /* SocialSignupView.swift */,
-				3B569D932A89DC2300AC9DA1 /* SingupView.swift */,
+				3B569D972A89E4FF00AC9DA1 /* SignInView.swift */,
+				3B569D992A89EE3C00AC9DA1 /* SignUpView.swift */,
 			);
 			path = Login;
 			sourceTree = "<group>";
@@ -365,13 +368,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3B569D982A89E4FF00AC9DA1 /* SignInView.swift in Sources */,
 				3B569D902A89D61D00AC9DA1 /* SecondaryButton.swift in Sources */,
 				3B569D8A2A88ED3800AC9DA1 /* UIExtension.swift in Sources */,
 				3B569D8C2A88F72E00AC9DA1 /* WelcomeView.swift in Sources */,
 				3B569D962A89E09700AC9DA1 /* RoundedTextField.swift in Sources */,
 				3B569D922A89D7AB00AC9DA1 /* SocialSignupView.swift in Sources */,
 				3B569D8E2A89D4CA00AC9DA1 /* PrimaryButton.swift in Sources */,
-				3B569D942A89DC2300AC9DA1 /* SingupView.swift in Sources */,
+				3B569D9A2A89EE3C00AC9DA1 /* SignUpView.swift in Sources */,
 				3B569D4D2A88E8B300AC9DA1 /* TrackizerApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

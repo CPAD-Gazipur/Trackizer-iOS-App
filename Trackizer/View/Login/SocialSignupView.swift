@@ -2,16 +2,17 @@
 //  SocialSignupView.swift
 //  Trackizer
 //
-//  Created by OnnoRokom on 14/8/23.
+//  Created by Md. Al-Amin on 14/8/23.
 //
 
 import SwiftUI
 
 struct SocialSignupView: View {
+    
+    @State var showSignUp: Bool = false
+    
     var body: some View {
         ZStack{
-            
-            
             
             VStack{
                 
@@ -116,7 +117,12 @@ struct SocialSignupView: View {
                     .foregroundColor(.white)
                     .padding(.bottom,25)
                 
-                SecondaryButton(title: "Sign up with E-mail", onPressed: {})
+                SecondaryButton(title: "Sign up with E-mail", onPressed: {
+                    showSignUp.toggle()
+                })
+                    .background(NavigationLink(destination: SignUpView(), isActive: $showSignUp, label: {
+                            EmptyView()
+                    }))
                     .padding(.bottom, 20)
                 
                 Text("By registering, you agree to our Terms of Use. Learn how we collect, use and share your data.")
@@ -129,6 +135,9 @@ struct SocialSignupView: View {
 
             }
         }
+        .navigationTitle("")
+        .navigationBarHidden(true)
+        .navigationBarBackButtonHidden(true)
         .ignoresSafeArea()
         .background(Color.gray80)
     }
