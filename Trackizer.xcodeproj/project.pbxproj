@@ -25,6 +25,10 @@
 		3B569D962A89E09700AC9DA1 /* RoundedTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B569D952A89E09700AC9DA1 /* RoundedTextField.swift */; };
 		3B569D982A89E4FF00AC9DA1 /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B569D972A89E4FF00AC9DA1 /* SignInView.swift */; };
 		3B569D9A2A89EE3C00AC9DA1 /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B569D992A89EE3C00AC9DA1 /* SignUpView.swift */; };
+		3B8A47BB2A8CC43B00CC0A00 /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B8A47BA2A8CC43B00CC0A00 /* MainTabView.swift */; };
+		3B8A47BD2A8CCE9E00CC0A00 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B8A47BC2A8CCE9E00CC0A00 /* HomeView.swift */; };
+		3B8A47BF2A8CD1B600CC0A00 /* SegmentButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B8A47BE2A8CD1B600CC0A00 /* SegmentButton.swift */; };
+		3B8A47C12A8CD40700CC0A00 /* SubscriptionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B8A47C02A8CD40700CC0A00 /* SubscriptionModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,6 +71,10 @@
 		3B569D952A89E09700AC9DA1 /* RoundedTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedTextField.swift; sourceTree = "<group>"; };
 		3B569D972A89E4FF00AC9DA1 /* SignInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInView.swift; sourceTree = "<group>"; };
 		3B569D992A89EE3C00AC9DA1 /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
+		3B8A47BA2A8CC43B00CC0A00 /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
+		3B8A47BC2A8CCE9E00CC0A00 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		3B8A47BE2A8CD1B600CC0A00 /* SegmentButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegmentButton.swift; sourceTree = "<group>"; };
+		3B8A47C02A8CD40700CC0A00 /* SubscriptionModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubscriptionModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -180,6 +188,7 @@
 		3B569D792A88E99500AC9DA1 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				3B8A47C02A8CD40700CC0A00 /* SubscriptionModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -205,6 +214,7 @@
 				3B569D8D2A89D4CA00AC9DA1 /* PrimaryButton.swift */,
 				3B569D8F2A89D61D00AC9DA1 /* SecondaryButton.swift */,
 				3B569D952A89E09700AC9DA1 /* RoundedTextField.swift */,
+				3B8A47BE2A8CD1B600CC0A00 /* SegmentButton.swift */,
 			);
 			path = UICommon;
 			sourceTree = "<group>";
@@ -223,6 +233,7 @@
 		3B569D7E2A88E9F500AC9DA1 /* Home */ = {
 			isa = PBXGroup;
 			children = (
+				3B8A47BC2A8CCE9E00CC0A00 /* HomeView.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -230,6 +241,7 @@
 		3B569D7F2A88E9FD00AC9DA1 /* MainTab */ = {
 			isa = PBXGroup;
 			children = (
+				3B8A47BA2A8CC43B00CC0A00 /* MainTabView.swift */,
 			);
 			path = MainTab;
 			sourceTree = "<group>";
@@ -373,10 +385,14 @@
 				3B569D8A2A88ED3800AC9DA1 /* UIExtension.swift in Sources */,
 				3B569D8C2A88F72E00AC9DA1 /* WelcomeView.swift in Sources */,
 				3B569D962A89E09700AC9DA1 /* RoundedTextField.swift in Sources */,
+				3B8A47BD2A8CCE9E00CC0A00 /* HomeView.swift in Sources */,
 				3B569D922A89D7AB00AC9DA1 /* SocialSignupView.swift in Sources */,
 				3B569D8E2A89D4CA00AC9DA1 /* PrimaryButton.swift in Sources */,
 				3B569D9A2A89EE3C00AC9DA1 /* SignUpView.swift in Sources */,
+				3B8A47BF2A8CD1B600CC0A00 /* SegmentButton.swift in Sources */,
 				3B569D4D2A88E8B300AC9DA1 /* TrackizerApp.swift in Sources */,
+				3B8A47BB2A8CC43B00CC0A00 /* MainTabView.swift in Sources */,
+				3B8A47C12A8CD40700CC0A00 /* SubscriptionModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
