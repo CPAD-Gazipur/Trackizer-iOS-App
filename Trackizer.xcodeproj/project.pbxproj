@@ -29,6 +29,8 @@
 		3B8A47BD2A8CCE9E00CC0A00 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B8A47BC2A8CCE9E00CC0A00 /* HomeView.swift */; };
 		3B8A47BF2A8CD1B600CC0A00 /* SegmentButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B8A47BE2A8CD1B600CC0A00 /* SegmentButton.swift */; };
 		3B8A47C12A8CD40700CC0A00 /* SubscriptionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B8A47C02A8CD40700CC0A00 /* SubscriptionModel.swift */; };
+		3B8A47C32A8CDC1900CC0A00 /* SubscriptionHomeRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B8A47C22A8CDC1900CC0A00 /* SubscriptionHomeRow.swift */; };
+		3B8A47C52A8CDCC100CC0A00 /* UpcommingBillRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B8A47C42A8CDCC100CC0A00 /* UpcommingBillRow.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -75,6 +77,8 @@
 		3B8A47BC2A8CCE9E00CC0A00 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		3B8A47BE2A8CD1B600CC0A00 /* SegmentButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegmentButton.swift; sourceTree = "<group>"; };
 		3B8A47C02A8CD40700CC0A00 /* SubscriptionModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubscriptionModel.swift; sourceTree = "<group>"; };
+		3B8A47C22A8CDC1900CC0A00 /* SubscriptionHomeRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubscriptionHomeRow.swift; sourceTree = "<group>"; };
+		3B8A47C42A8CDCC100CC0A00 /* UpcommingBillRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpcommingBillRow.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -215,6 +219,8 @@
 				3B569D8F2A89D61D00AC9DA1 /* SecondaryButton.swift */,
 				3B569D952A89E09700AC9DA1 /* RoundedTextField.swift */,
 				3B8A47BE2A8CD1B600CC0A00 /* SegmentButton.swift */,
+				3B8A47C22A8CDC1900CC0A00 /* SubscriptionHomeRow.swift */,
+				3B8A47C42A8CDCC100CC0A00 /* UpcommingBillRow.swift */,
 			);
 			path = UICommon;
 			sourceTree = "<group>";
@@ -380,6 +386,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3B8A47C32A8CDC1900CC0A00 /* SubscriptionHomeRow.swift in Sources */,
 				3B569D982A89E4FF00AC9DA1 /* SignInView.swift in Sources */,
 				3B569D902A89D61D00AC9DA1 /* SecondaryButton.swift in Sources */,
 				3B569D8A2A88ED3800AC9DA1 /* UIExtension.swift in Sources */,
@@ -389,6 +396,7 @@
 				3B569D922A89D7AB00AC9DA1 /* SocialSignupView.swift in Sources */,
 				3B569D8E2A89D4CA00AC9DA1 /* PrimaryButton.swift in Sources */,
 				3B569D9A2A89EE3C00AC9DA1 /* SignUpView.swift in Sources */,
+				3B8A47C52A8CDCC100CC0A00 /* UpcommingBillRow.swift in Sources */,
 				3B8A47BF2A8CD1B600CC0A00 /* SegmentButton.swift in Sources */,
 				3B569D4D2A88E8B300AC9DA1 /* TrackizerApp.swift in Sources */,
 				3B8A47BB2A8CC43B00CC0A00 /* MainTabView.swift in Sources */,

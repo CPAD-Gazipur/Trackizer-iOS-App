@@ -74,31 +74,7 @@ struct HomeView: View {
                     
                     ForEach(subArray, id: \.id){ subscription in
                         
-                        HStack{
-                            
-                            Image(subscription.icon)
-                                .resizable()
-                                .frame(width: 40, height: 40)
-                            
-                            Text(subscription.name)
-                                .font(.customfont(.semibold, fontSize: 14))
-                                .foregroundColor(.white)
-                            
-                            Spacer()
-                            
-                            Text("$\(subscription.price)")
-                                .font(.customfont(.semibold, fontSize: 14))
-                                .foregroundColor(.white)
-                            
-                        }
-                        .padding(15)
-                        .frame(minWidth: 0,maxWidth: .infinity,minHeight:60,maxHeight:60)
-                        .background(Color.gray60.opacity(0.2))
-                        .overlay{
-                            RoundedRectangle(cornerRadius: 12)
-                                .stroke( Color.gray70, lineWidth: 1)
-                        }
-                        .cornerRadius(12)
+                      SubscriptionHomeRow(subscription: subscription)
                         
                     }
                     
@@ -107,9 +83,16 @@ struct HomeView: View {
             }
             else{
                 
-                LazyVStack{
+                LazyVStack(spacing: 15){
+                    
+                    ForEach(subArray, id: \.id){ subscription in
+                        
+                        UpcommingBillRow(subscription: subscription)
+                        
+                    }
                     
                 }
+                .padding(.horizontal,20)
             }
         }
         .background(Color.grayC)
