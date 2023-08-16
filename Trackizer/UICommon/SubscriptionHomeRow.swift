@@ -2,7 +2,7 @@
 //  SubscriptionHomeRow.swift
 //  Trackizer
 //
-//  Created by OnnoRokom on 16/8/23.
+//  Created by Md. Al-Amin on 16/8/23.
 //
 
 import SwiftUI

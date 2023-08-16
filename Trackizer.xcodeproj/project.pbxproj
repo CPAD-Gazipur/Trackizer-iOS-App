@@ -31,6 +31,7 @@
 		3B8A47C12A8CD40700CC0A00 /* SubscriptionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B8A47C02A8CD40700CC0A00 /* SubscriptionModel.swift */; };
 		3B8A47C32A8CDC1900CC0A00 /* SubscriptionHomeRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B8A47C22A8CDC1900CC0A00 /* SubscriptionHomeRow.swift */; };
 		3B8A47C52A8CDCC100CC0A00 /* UpcommingBillRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B8A47C42A8CDCC100CC0A00 /* UpcommingBillRow.swift */; };
+		3B8A47C72A8CE0C900CC0A00 /* StatusButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B8A47C62A8CE0C900CC0A00 /* StatusButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -79,6 +80,7 @@
 		3B8A47C02A8CD40700CC0A00 /* SubscriptionModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubscriptionModel.swift; sourceTree = "<group>"; };
 		3B8A47C22A8CDC1900CC0A00 /* SubscriptionHomeRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubscriptionHomeRow.swift; sourceTree = "<group>"; };
 		3B8A47C42A8CDCC100CC0A00 /* UpcommingBillRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpcommingBillRow.swift; sourceTree = "<group>"; };
+		3B8A47C62A8CE0C900CC0A00 /* StatusButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -221,6 +223,7 @@
 				3B8A47BE2A8CD1B600CC0A00 /* SegmentButton.swift */,
 				3B8A47C22A8CDC1900CC0A00 /* SubscriptionHomeRow.swift */,
 				3B8A47C42A8CDCC100CC0A00 /* UpcommingBillRow.swift */,
+				3B8A47C62A8CE0C900CC0A00 /* StatusButton.swift */,
 			);
 			path = UICommon;
 			sourceTree = "<group>";
@@ -399,6 +402,7 @@
 				3B8A47C52A8CDCC100CC0A00 /* UpcommingBillRow.swift in Sources */,
 				3B8A47BF2A8CD1B600CC0A00 /* SegmentButton.swift in Sources */,
 				3B569D4D2A88E8B300AC9DA1 /* TrackizerApp.swift in Sources */,
+				3B8A47C72A8CE0C900CC0A00 /* StatusButton.swift in Sources */,
 				3B8A47BB2A8CC43B00CC0A00 /* MainTabView.swift in Sources */,
 				3B8A47C12A8CD40700CC0A00 /* SubscriptionModel.swift in Sources */,
 			);
