@@ -36,13 +36,40 @@ struct HomeView: View {
     var body: some View {
         ScrollView{
             
-            ZStack{
+            ZStack(alignment: .center){
                 
                 Rectangle()
                     .foregroundColor(.gray70.opacity(0.5))
                     .frame(width: .screenWidth,height: .widthPer(per: 1.1))
                     .cornerRadius(25)
+                
+                VStack{
+                    
+                    Spacer()
+                    
+                    HStack{
+                        
+                        StatusButton(
+                            title: "Active Subscrioptions",
+                            value: "25",
+                            onPressed: {
+                                
+                            })
+                        
+                        StatusButton(
+                            title: "Highest Subscrioptions",
+                            value: "$29.99",
+                            color: .primary10,
+                            onPressed: {
+                                
+                            })
+                        
+                    }
+                    
+                }
+                .padding()
             }
+            .frame(width: .screenWidth,height: .widthPer(per: 1.1))
             
             HStack{
                 
