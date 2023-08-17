@@ -32,6 +32,7 @@
 		3B8A47C32A8CDC1900CC0A00 /* SubscriptionHomeRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B8A47C22A8CDC1900CC0A00 /* SubscriptionHomeRow.swift */; };
 		3B8A47C52A8CDCC100CC0A00 /* UpcommingBillRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B8A47C42A8CDCC100CC0A00 /* UpcommingBillRow.swift */; };
 		3B8A47C72A8CE0C900CC0A00 /* StatusButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B8A47C62A8CE0C900CC0A00 /* StatusButton.swift */; };
+		3BE1C9BB2A8DE64800485EAD /* ArcShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BE1C9BA2A8DE64800485EAD /* ArcShape.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -81,6 +82,7 @@
 		3B8A47C22A8CDC1900CC0A00 /* SubscriptionHomeRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubscriptionHomeRow.swift; sourceTree = "<group>"; };
 		3B8A47C42A8CDCC100CC0A00 /* UpcommingBillRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpcommingBillRow.swift; sourceTree = "<group>"; };
 		3B8A47C62A8CE0C900CC0A00 /* StatusButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusButton.swift; sourceTree = "<group>"; };
+		3BE1C9BA2A8DE64800485EAD /* ArcShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArcShape.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -224,6 +226,7 @@
 				3B8A47C22A8CDC1900CC0A00 /* SubscriptionHomeRow.swift */,
 				3B8A47C42A8CDCC100CC0A00 /* UpcommingBillRow.swift */,
 				3B8A47C62A8CE0C900CC0A00 /* StatusButton.swift */,
+				3BE1C9BA2A8DE64800485EAD /* ArcShape.swift */,
 			);
 			path = UICommon;
 			sourceTree = "<group>";
@@ -389,6 +392,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3BE1C9BB2A8DE64800485EAD /* ArcShape.swift in Sources */,
 				3B8A47C32A8CDC1900CC0A00 /* SubscriptionHomeRow.swift in Sources */,
 				3B569D982A89E4FF00AC9DA1 /* SignInView.swift in Sources */,
 				3B569D902A89D61D00AC9DA1 /* SecondaryButton.swift in Sources */,

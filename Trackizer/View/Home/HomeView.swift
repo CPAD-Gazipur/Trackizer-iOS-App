@@ -43,11 +43,22 @@ struct HomeView: View {
                     .frame(width: .screenWidth,height: .widthPer(per: 1.1))
                     .cornerRadius(25)
                 
-
-                
                 Image("home_bg")
                     .resizable()
                     .scaledToFit()
+                
+                ZStack{
+                    
+                    ArcShape()
+                        .foregroundColor(.gray.opacity(0.2))
+                    
+                    ArcShape(start: 0,end: 230)
+                        .foregroundColor(.secondaryC)
+                        .shadow(color: .secondaryC.opacity(0.5), radius: 7)
+                    
+                }
+                .frame(width: .widthPer(per: 0.72), height: .widthPer(per: 0.72))
+                .padding(.bottom,15)
                 
                 VStack(spacing: .widthPer(per: 0.07)){
                     
