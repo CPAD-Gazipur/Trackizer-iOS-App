@@ -3,7 +3,7 @@
 //  Trackizer
 //
 //  Created by Md. Al-Amin on 16/8/23.
-//
+
 
 import SwiftUI
 
@@ -30,14 +30,13 @@ struct StatusButton: View {
                         Text(title)
                             .font(.customfont(.semibold, fontSize: 12))
                             .foregroundColor(.gray30)
-                
+                        
                         
                         Text(value)
                             .font(.customfont(.semibold, fontSize: 14))
                             .foregroundColor(.white)
                         
                     }
-                  
                     
                 }
                 
@@ -55,6 +54,7 @@ struct StatusButton: View {
                     .frame(width: 60,height: 1,alignment: .center)
                 
             }
+            
         }
     }
 }

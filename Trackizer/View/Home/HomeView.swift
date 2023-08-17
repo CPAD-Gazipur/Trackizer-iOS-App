@@ -43,6 +43,7 @@ struct HomeView: View {
                     .frame(width: .screenWidth,height: .widthPer(per: 1.1))
                     .cornerRadius(25)
                 
+
                 
                 Image("home_bg")
                     .resizable()
@@ -81,6 +82,7 @@ struct HomeView: View {
                 }
                 
                 
+
                 VStack{
                     
                     Spacer()
@@ -95,6 +97,7 @@ struct HomeView: View {
                             })
                         
                         StatusButton(
+
                             title: "Highest Subs",
                             value: "$29.99",
                             color: .primary10,
@@ -102,6 +105,7 @@ struct HomeView: View {
                                 
                             })
                         
+
                         StatusButton(
                             title: "Lowest Subs",
                             value: "$5.99",
@@ -110,6 +114,7 @@ struct HomeView: View {
                                 
                             })
                         
+
                     }
                     
                 }
