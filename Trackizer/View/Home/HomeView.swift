@@ -43,6 +43,44 @@ struct HomeView: View {
                     .frame(width: .screenWidth,height: .widthPer(per: 1.1))
                     .cornerRadius(25)
                 
+                
+                Image("home_bg")
+                    .resizable()
+                    .scaledToFit()
+                
+                VStack(spacing: .widthPer(per: 0.07)){
+                    
+                    Image("app_logo")
+                        .resizable()
+                        .scaledToFit()
+                        .frame(width: .widthPer(per: 0.25))
+                      
+                    Text("$1,235")
+                        .font(.customfont(.bold, fontSize: 40))
+                        .foregroundColor(.white)
+                    
+                    Text("This month bill")
+                        .font(.customfont(.semibold, fontSize: 12))
+                        .foregroundColor(.gray40)
+                    
+                    Button{
+                        
+                    } label: {
+                        Text("See your budget")
+                            .font(.customfont(.semibold, fontSize: 12))
+                    }
+                    .foregroundColor(.white)
+                    .padding(10)
+                    .background(Color.gray60.opacity(0.2))
+                    .overlay{
+                        RoundedRectangle(cornerRadius: 16)
+                            .stroke(Color.gray70, lineWidth: 1)
+                    }
+                    .cornerRadius(16)
+                    
+                }
+                
+                
                 VStack{
                     
                     Spacer()
@@ -50,16 +88,24 @@ struct HomeView: View {
                     HStack{
                         
                         StatusButton(
-                            title: "Active Subscrioptions",
+                            title: "Active Subs",
                             value: "25",
                             onPressed: {
                                 
                             })
                         
                         StatusButton(
-                            title: "Highest Subscrioptions",
+                            title: "Highest Subs",
                             value: "$29.99",
                             color: .primary10,
+                            onPressed: {
+                                
+                            })
+                        
+                        StatusButton(
+                            title: "Lowest Subs",
+                            value: "$5.99",
+                            color: .secondaryG,
                             onPressed: {
                                 
                             })

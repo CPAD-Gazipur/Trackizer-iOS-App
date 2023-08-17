@@ -30,14 +30,17 @@ struct StatusButton: View {
                         Text(title)
                             .font(.customfont(.semibold, fontSize: 12))
                             .foregroundColor(.gray30)
+                
                         
                         Text(value)
                             .font(.customfont(.semibold, fontSize: 14))
                             .foregroundColor(.white)
                         
                     }
+                  
                     
                 }
+                
                 .frame(minWidth: 0, maxWidth: .infinity, minHeight:68, maxHeight:68)
                 .background(Color.gray60.opacity(0.2))
                 .overlay{

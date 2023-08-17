@@ -2,7 +2,7 @@
 //  TrackizerApp.swift
 //  Trackizer
 //
-//  Created by OnnoRokom on 13/8/23.
+//  Created by Md. Al-Amin on 13/8/23.
 //
 
 import SwiftUI
