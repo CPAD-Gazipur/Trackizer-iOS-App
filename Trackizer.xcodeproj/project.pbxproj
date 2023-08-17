@@ -33,6 +33,9 @@
 		3B8A47C52A8CDCC100CC0A00 /* UpcommingBillRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B8A47C42A8CDCC100CC0A00 /* UpcommingBillRow.swift */; };
 		3B8A47C72A8CE0C900CC0A00 /* StatusButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B8A47C62A8CE0C900CC0A00 /* StatusButton.swift */; };
 		3BE1C9BB2A8DE64800485EAD /* ArcShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BE1C9BA2A8DE64800485EAD /* ArcShape.swift */; };
+		3BE1C9BE2A8DEEE900485EAD /* BudgetsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BE1C9BD2A8DEEE900485EAD /* BudgetsView.swift */; };
+		3BE1C9C02A8DEF0000485EAD /* BudgetModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BE1C9BF2A8DEF0000485EAD /* BudgetModel.swift */; };
+		3BE1C9C22A8E16F800485EAD /* BudgetRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BE1C9C12A8E16F800485EAD /* BudgetRow.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -83,6 +86,9 @@
 		3B8A47C42A8CDCC100CC0A00 /* UpcommingBillRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpcommingBillRow.swift; sourceTree = "<group>"; };
 		3B8A47C62A8CE0C900CC0A00 /* StatusButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusButton.swift; sourceTree = "<group>"; };
 		3BE1C9BA2A8DE64800485EAD /* ArcShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArcShape.swift; sourceTree = "<group>"; };
+		3BE1C9BD2A8DEEE900485EAD /* BudgetsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BudgetsView.swift; sourceTree = "<group>"; };
+		3BE1C9BF2A8DEF0000485EAD /* BudgetModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BudgetModel.swift; sourceTree = "<group>"; };
+		3BE1C9C12A8E16F800485EAD /* BudgetRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BudgetRow.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -186,6 +192,7 @@
 		3B569D782A88E98F00AC9DA1 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				3BE1C9BC2A8DEED600485EAD /* Budgets */,
 				3B569D7F2A88E9FD00AC9DA1 /* MainTab */,
 				3B569D7E2A88E9F500AC9DA1 /* Home */,
 				3B569D7D2A88E9F000AC9DA1 /* Login */,
@@ -204,6 +211,7 @@
 			isa = PBXGroup;
 			children = (
 				3B8A47C02A8CD40700CC0A00 /* SubscriptionModel.swift */,
+				3BE1C9BF2A8DEF0000485EAD /* BudgetModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -227,6 +235,7 @@
 				3B8A47C42A8CDCC100CC0A00 /* UpcommingBillRow.swift */,
 				3B8A47C62A8CE0C900CC0A00 /* StatusButton.swift */,
 				3BE1C9BA2A8DE64800485EAD /* ArcShape.swift */,
+				3BE1C9C12A8E16F800485EAD /* BudgetRow.swift */,
 			);
 			path = UICommon;
 			sourceTree = "<group>";
@@ -256,6 +265,14 @@
 				3B8A47BA2A8CC43B00CC0A00 /* MainTabView.swift */,
 			);
 			path = MainTab;
+			sourceTree = "<group>";
+		};
+		3BE1C9BC2A8DEED600485EAD /* Budgets */ = {
+			isa = PBXGroup;
+			children = (
+				3BE1C9BD2A8DEEE900485EAD /* BudgetsView.swift */,
+			);
+			path = Budgets;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -392,6 +409,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3BE1C9C02A8DEF0000485EAD /* BudgetModel.swift in Sources */,
+				3BE1C9C22A8E16F800485EAD /* BudgetRow.swift in Sources */,
 				3BE1C9BB2A8DE64800485EAD /* ArcShape.swift in Sources */,
 				3B8A47C32A8CDC1900CC0A00 /* SubscriptionHomeRow.swift in Sources */,
 				3B569D982A89E4FF00AC9DA1 /* SignInView.swift in Sources */,
@@ -405,6 +424,7 @@
 				3B569D9A2A89EE3C00AC9DA1 /* SignUpView.swift in Sources */,
 				3B8A47C52A8CDCC100CC0A00 /* UpcommingBillRow.swift in Sources */,
 				3B8A47BF2A8CD1B600CC0A00 /* SegmentButton.swift in Sources */,
+				3BE1C9BE2A8DEEE900485EAD /* BudgetsView.swift in Sources */,
 				3B569D4D2A88E8B300AC9DA1 /* TrackizerApp.swift in Sources */,
 				3B8A47C72A8CE0C900CC0A00 /* StatusButton.swift in Sources */,
 				3B8A47BB2A8CC43B00CC0A00 /* MainTabView.swift in Sources */,
