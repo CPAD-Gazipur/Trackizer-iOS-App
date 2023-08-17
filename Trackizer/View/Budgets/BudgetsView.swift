@@ -48,7 +48,7 @@ struct BudgetsView: View {
             .foregroundColor(.white)
             .frame(minWidth: 0,maxWidth: .infinity,minHeight:64,maxHeight:64)
             .overlay{
-                RoundedRectangle(cornerRadius: 12)
+                RoundedRectangle(cornerRadius: 16)
                     .stroke(Color.gray70, lineWidth: 1)
             }
             .cornerRadius(16)
@@ -65,6 +65,33 @@ struct BudgetsView: View {
                 }
             }
             .padding(.horizontal,20)
+            .padding(.vertical,10)
+            
+            Button{
+                
+            } label: {
+                
+                HStack{
+                    
+                    Text("Add new category")
+                        .font(.customfont(.semibold, fontSize: 14))
+                    
+                    Image("add")
+                        .resizable()
+                        .frame(width: 14,height: 14)
+                }
+ 
+            }
+            .foregroundColor(.gray30)
+            .frame(minWidth: 0,maxWidth: .infinity,minHeight:64,maxHeight:64)
+            .overlay{
+                RoundedRectangle(cornerRadius: 16)
+                    .strokeBorder(style: StrokeStyle(lineWidth: 1,dash: [5,4]))
+                    .foregroundColor(.gray30.opacity(0.5))
+            }
+            .cornerRadius(16)
+            .padding(.horizontal,20)
+            .padding(.vertical,10)
             
             
         }
