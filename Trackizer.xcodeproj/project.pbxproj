@@ -194,7 +194,6 @@
 		3B569D792A88E99500AC9DA1 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
-				3B8A47C02A8CD40700CC0A00 /* SubscriptionModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -202,6 +201,7 @@
 		3B569D7A2A88E99C00AC9DA1 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				3B8A47C02A8CD40700CC0A00 /* SubscriptionModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
