@@ -35,9 +35,47 @@ struct BudgetsView: View {
                  "color": Color.primary10 ] )
         ]
     
+    @State var arcArray: [ArcModel] = []
+    
     var body: some View {
         
         ScrollView{
+            
+            
+            ZStack(alignment: .bottom){
+                
+                
+                ZStack{
+                    
+                    ArcShape180(width: 10)
+                        .foregroundColor(.gray.opacity(0.2))
+                    
+                    ForEach(arcArray, id: \.id){ arcData in
+                        
+                        ArcShape180(start: arcData.startValue,end: arcData.value - 9,width: 14)
+                            .foregroundColor(arcData.color)
+                            .shadow(color: arcData.color.opacity(0.5), radius: 7)
+                        
+                    }
+                    
+                }
+                .frame(width: .widthPer(per: 0.5),height: .widthPer(per: 0.3))
+                
+                
+                VStack{
+                    
+                    Text("$8,290")
+                        .font(.customfont(.bold, fontSize: 24))
+                        .foregroundColor(.white)
+                    
+                    Text("of $20,000 budget")
+                        .font(.customfont(.medium, fontSize: 12))
+                        .foregroundColor(.gray30)
+                }
+            }
+            .padding(.top,64)
+            .padding(.bottom,30)
+            
             
             Button{
                 
@@ -52,7 +90,7 @@ struct BudgetsView: View {
                     .stroke(Color.gray70, lineWidth: 1)
             }
             .cornerRadius(16)
-            .padding(.top,80)
+            .padding(.vertical,10)
             .padding(.horizontal,20)
             
             
@@ -95,8 +133,30 @@ struct BudgetsView: View {
             
             
         }
+        .onAppear{
+            getArcProgressData()
+        }
         .background(Color.grayC)
         .ignoresSafeArea()
+    }
+    
+    func getArcProgressData() {
+        
+        var data = [
+            ArcModel(value: 20,color: .secondaryG),
+            ArcModel(value: 45,color: .secondaryC),
+            ArcModel(value: 70,color: .primary10),
+        ]
+        
+        var value = 0.0
+        
+        for i in (0 ..< data.count){
+            data[i].startValue = value
+            value = data[i].startValue + data[i].value + 2
+        }
+        
+        arcArray = data
+        
     }
 }
 

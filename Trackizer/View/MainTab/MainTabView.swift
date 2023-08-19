@@ -14,6 +14,15 @@ struct MainTabView: View {
     var body: some View {
         ZStack{
             
+            if(selectTab == 0){
+                HomeView()
+                    .frame(width: .screenWidth,height: .screenHeight)
+            }
+            else if(selectTab == 1){
+                BudgetsView()
+                    .frame(width: .screenWidth,height: .screenHeight)
+            }
+            
             VStack{
                 
                 Spacer()
@@ -36,7 +45,7 @@ struct MainTabView: View {
                                     .frame(width: 20, height: 20)
                                     .padding()
                             }
-                            .foregroundColor( selectTab == 0 ? .white : .gray30 )
+                            .foregroundColor(selectTab == 0 ? .white : .gray30)
                             
                             Spacer()
                             Button {
@@ -47,7 +56,7 @@ struct MainTabView: View {
                                     .frame(width: 20, height: 20)
                                     .padding()
                             }
-                            .foregroundColor( selectTab == 1 ? .white : .gray30 )
+                            .foregroundColor(selectTab == 1 ? .white : .gray30)
                             
                             
                             Rectangle()
@@ -62,7 +71,7 @@ struct MainTabView: View {
                                     .frame(width: 20, height: 20)
                                     .padding()
                             }
-                            .foregroundColor( selectTab == 2 ? .white : .gray30 )
+                            .foregroundColor(selectTab == 2 ? .white : .gray30)
                             
                             Spacer()
                             Button {
@@ -73,7 +82,7 @@ struct MainTabView: View {
                                     .frame(width: 20, height: 20)
                                     .padding()
                             }
-                            .foregroundColor( selectTab == 3 ? .white : .gray30 )
+                            .foregroundColor(selectTab == 3 ? .white : .gray30)
                             Spacer()
                         }
                     }

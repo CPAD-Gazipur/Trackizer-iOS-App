@@ -36,6 +36,7 @@
 		3BE1C9BE2A8DEEE900485EAD /* BudgetsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BE1C9BD2A8DEEE900485EAD /* BudgetsView.swift */; };
 		3BE1C9C02A8DEF0000485EAD /* BudgetModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BE1C9BF2A8DEF0000485EAD /* BudgetModel.swift */; };
 		3BE1C9C22A8E16F800485EAD /* BudgetRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BE1C9C12A8E16F800485EAD /* BudgetRow.swift */; };
+		3BE1C9C42A90C40200485EAD /* ArcModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BE1C9C32A90C40200485EAD /* ArcModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -89,6 +90,7 @@
 		3BE1C9BD2A8DEEE900485EAD /* BudgetsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BudgetsView.swift; sourceTree = "<group>"; };
 		3BE1C9BF2A8DEF0000485EAD /* BudgetModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BudgetModel.swift; sourceTree = "<group>"; };
 		3BE1C9C12A8E16F800485EAD /* BudgetRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BudgetRow.swift; sourceTree = "<group>"; };
+		3BE1C9C32A90C40200485EAD /* ArcModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArcModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -212,6 +214,7 @@
 			children = (
 				3B8A47C02A8CD40700CC0A00 /* SubscriptionModel.swift */,
 				3BE1C9BF2A8DEF0000485EAD /* BudgetModel.swift */,
+				3BE1C9C32A90C40200485EAD /* ArcModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -416,6 +419,7 @@
 				3B569D982A89E4FF00AC9DA1 /* SignInView.swift in Sources */,
 				3B569D902A89D61D00AC9DA1 /* SecondaryButton.swift in Sources */,
 				3B569D8A2A88ED3800AC9DA1 /* UIExtension.swift in Sources */,
+				3BE1C9C42A90C40200485EAD /* ArcModel.swift in Sources */,
 				3B569D8C2A88F72E00AC9DA1 /* WelcomeView.swift in Sources */,
 				3B569D962A89E09700AC9DA1 /* RoundedTextField.swift in Sources */,
 				3B8A47BD2A8CCE9E00CC0A00 /* HomeView.swift in Sources */,
