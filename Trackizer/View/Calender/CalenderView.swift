@@ -8,6 +8,8 @@
 import SwiftUI
 
 struct CalenderView: View {
+
+    @EnvironmentObject var weekStore: WeekStore
     
     @State var subArray: [SubscriptionModel] = [
      SubscriptionModel(dict: [
@@ -48,6 +50,7 @@ struct CalenderView: View {
                     .cornerRadius(25)
                 
                 VStack{
+                    
                     Text("Calender")
                         .font(.customfont(.regular, fontSize: 16))
                         .foregroundColor(.gray30)
@@ -60,6 +63,15 @@ struct CalenderView: View {
                         .foregroundColor(.white)
                         .frame(minWidth: 0,maxWidth: .infinity,alignment: .leading)
                         .padding(.horizontal,20)
+                    
+                    WeeklyHeaderView()
+                        .padding(.horizontal,10)
+                    WeeksTabView() { week in
+                        WeekView(week: week)
+                    }
+                    .frame(height: 110, alignment: .top)
+                    .padding(.vertical, 20)
+
                         
                 }
                 .padding(.top,.topInsets)
@@ -68,8 +80,9 @@ struct CalenderView: View {
             .frame(width: .screenWidth)
             
             VStack{
-                
+
                 HStack{
+                    
                     Text("January")
                         .font(.customfont(.bold, fontSize: 20))
                         .foregroundColor(.white)
@@ -81,6 +94,7 @@ struct CalenderView: View {
                 }
                 
                 HStack{
+                    
                     Text("21.08.2023")
                         .font(.customfont(.medium, fontSize: 12))
                         .foregroundColor(.gray30)
@@ -111,5 +125,6 @@ struct CalenderView: View {
 struct CalenderView_Previews: PreviewProvider {
     static var previews: some View {
         CalenderView()
+            .environmentObject(WeekStore())
     }
 }

@@ -39,6 +39,18 @@
 		3BE1C9C42A90C40200485EAD /* ArcModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BE1C9C32A90C40200485EAD /* ArcModel.swift */; };
 		3BE1C9C82A90CB6700485EAD /* CalenderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BE1C9C72A90CB6700485EAD /* CalenderView.swift */; };
 		3BE1C9CA2A9310BD00485EAD /* SubscriptionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BE1C9C92A9310BD00485EAD /* SubscriptionCell.swift */; };
+		3BE1C9DB2A9322E900485EAD /* Week.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BE1C9DA2A9322E900485EAD /* Week.swift */; };
+		3BE1C9DD2A93230B00485EAD /* WeekStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BE1C9DC2A93230B00485EAD /* WeekStore.swift */; };
+		3BE1C9E12A9323DF00485EAD /* TimeDirection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BE1C9E02A9323DF00485EAD /* TimeDirection.swift */; };
+		3BE1C9E42A93242C00485EAD /* Color+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BE1C9E32A93242C00485EAD /* Color+Extension.swift */; };
+		3BE1C9E62A93244700485EAD /* Date+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BE1C9E52A93244700485EAD /* Date+Extension.swift */; };
+		3BE1C9E82A93247A00485EAD /* View+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BE1C9E72A93247A00485EAD /* View+Extension.swift */; };
+		3BE1C9EB2A9324AE00485EAD /* CornerRadiusShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BE1C9EA2A9324AE00485EAD /* CornerRadiusShape.swift */; };
+		3BE1C9EE2A93251300485EAD /* CornerRadiusStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BE1C9ED2A93251300485EAD /* CornerRadiusStyle.swift */; };
+		3BE1C9F42A93275700485EAD /* WeeklyHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BE1C9F32A93275700485EAD /* WeeklyHeaderView.swift */; };
+		3BE1C9F62A932A2B00485EAD /* WeekView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BE1C9F52A932A2B00485EAD /* WeekView.swift */; };
+		3BE1C9F92A932B1B00485EAD /* WeeksTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BE1C9F82A932B1B00485EAD /* WeeksTabView.swift */; };
+		3BE1C9FB2A932B5100485EAD /* InfiniteWeekView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BE1C9FA2A932B5100485EAD /* InfiniteWeekView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -95,6 +107,18 @@
 		3BE1C9C32A90C40200485EAD /* ArcModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArcModel.swift; sourceTree = "<group>"; };
 		3BE1C9C72A90CB6700485EAD /* CalenderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalenderView.swift; sourceTree = "<group>"; };
 		3BE1C9C92A9310BD00485EAD /* SubscriptionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubscriptionCell.swift; sourceTree = "<group>"; };
+		3BE1C9DA2A9322E900485EAD /* Week.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Week.swift; sourceTree = "<group>"; };
+		3BE1C9DC2A93230B00485EAD /* WeekStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeekStore.swift; sourceTree = "<group>"; };
+		3BE1C9E02A9323DF00485EAD /* TimeDirection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeDirection.swift; sourceTree = "<group>"; };
+		3BE1C9E32A93242C00485EAD /* Color+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Extension.swift"; sourceTree = "<group>"; };
+		3BE1C9E52A93244700485EAD /* Date+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Extension.swift"; sourceTree = "<group>"; };
+		3BE1C9E72A93247A00485EAD /* View+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Extension.swift"; sourceTree = "<group>"; };
+		3BE1C9EA2A9324AE00485EAD /* CornerRadiusShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CornerRadiusShape.swift; sourceTree = "<group>"; };
+		3BE1C9ED2A93251300485EAD /* CornerRadiusStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CornerRadiusStyle.swift; sourceTree = "<group>"; };
+		3BE1C9F32A93275700485EAD /* WeeklyHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeeklyHeaderView.swift; sourceTree = "<group>"; };
+		3BE1C9F52A932A2B00485EAD /* WeekView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeekView.swift; sourceTree = "<group>"; };
+		3BE1C9F82A932B1B00485EAD /* WeeksTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeeksTabView.swift; sourceTree = "<group>"; };
+		3BE1C9FA2A932B5100485EAD /* InfiniteWeekView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfiniteWeekView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -145,6 +169,7 @@
 		3B569D4B2A88E8B300AC9DA1 /* Trackizer */ = {
 			isa = PBXGroup;
 			children = (
+				3BE1C9CB2A93176C00485EAD /* 3rdParty */,
 				3B569D882A88EC9100AC9DA1 /* Info.plist */,
 				3B569D7C2A88E9A900AC9DA1 /* UICommon */,
 				3B569D7B2A88E9A200AC9DA1 /* Common */,
@@ -292,6 +317,97 @@
 			path = Calender;
 			sourceTree = "<group>";
 		};
+		3BE1C9CB2A93176C00485EAD /* 3rdParty */ = {
+			isa = PBXGroup;
+			children = (
+				3BE1C9CC2A93177600485EAD /* InfiniteWeekView */,
+			);
+			path = 3rdParty;
+			sourceTree = "<group>";
+		};
+		3BE1C9CC2A93177600485EAD /* InfiniteWeekView */ = {
+			isa = PBXGroup;
+			children = (
+				3BE1C9EF2A93256000485EAD /* Views */,
+				3BE1C9DE2A9323BC00485EAD /* Utils */,
+				3BE1C9D92A9322D700485EAD /* Models */,
+			);
+			path = InfiniteWeekView;
+			sourceTree = "<group>";
+		};
+		3BE1C9D92A9322D700485EAD /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				3BE1C9DA2A9322E900485EAD /* Week.swift */,
+				3BE1C9DC2A93230B00485EAD /* WeekStore.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		3BE1C9DE2A9323BC00485EAD /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				3BE1C9EC2A93250400485EAD /* ViewModifier */,
+				3BE1C9E92A93249F00485EAD /* Shapes */,
+				3BE1C9E22A93241400485EAD /* Extensions */,
+				3BE1C9DF2A9323CD00485EAD /* Enums */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		3BE1C9DF2A9323CD00485EAD /* Enums */ = {
+			isa = PBXGroup;
+			children = (
+				3BE1C9E02A9323DF00485EAD /* TimeDirection.swift */,
+			);
+			path = Enums;
+			sourceTree = "<group>";
+		};
+		3BE1C9E22A93241400485EAD /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				3BE1C9E32A93242C00485EAD /* Color+Extension.swift */,
+				3BE1C9E52A93244700485EAD /* Date+Extension.swift */,
+				3BE1C9E72A93247A00485EAD /* View+Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		3BE1C9E92A93249F00485EAD /* Shapes */ = {
+			isa = PBXGroup;
+			children = (
+				3BE1C9EA2A9324AE00485EAD /* CornerRadiusShape.swift */,
+			);
+			path = Shapes;
+			sourceTree = "<group>";
+		};
+		3BE1C9EC2A93250400485EAD /* ViewModifier */ = {
+			isa = PBXGroup;
+			children = (
+				3BE1C9ED2A93251300485EAD /* CornerRadiusStyle.swift */,
+			);
+			path = ViewModifier;
+			sourceTree = "<group>";
+		};
+		3BE1C9EF2A93256000485EAD /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				3BE1C9F02A93256D00485EAD /* Week */,
+				3BE1C9FA2A932B5100485EAD /* InfiniteWeekView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		3BE1C9F02A93256D00485EAD /* Week */ = {
+			isa = PBXGroup;
+			children = (
+				3BE1C9F32A93275700485EAD /* WeeklyHeaderView.swift */,
+				3BE1C9F52A932A2B00485EAD /* WeekView.swift */,
+				3BE1C9F82A932B1B00485EAD /* WeeksTabView.swift */,
+			);
+			path = Week;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -427,7 +543,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				3BE1C9C02A8DEF0000485EAD /* BudgetModel.swift in Sources */,
+				3BE1C9FB2A932B5100485EAD /* InfiniteWeekView.swift in Sources */,
 				3BE1C9C22A8E16F800485EAD /* BudgetRow.swift in Sources */,
+				3BE1C9EB2A9324AE00485EAD /* CornerRadiusShape.swift in Sources */,
 				3BE1C9BB2A8DE64800485EAD /* ArcShape.swift in Sources */,
 				3B8A47C32A8CDC1900CC0A00 /* SubscriptionHomeRow.swift in Sources */,
 				3B569D982A89E4FF00AC9DA1 /* SignInView.swift in Sources */,
@@ -440,15 +558,25 @@
 				3B8A47BD2A8CCE9E00CC0A00 /* HomeView.swift in Sources */,
 				3B569D922A89D7AB00AC9DA1 /* SocialSignupView.swift in Sources */,
 				3B569D8E2A89D4CA00AC9DA1 /* PrimaryButton.swift in Sources */,
+				3BE1C9E82A93247A00485EAD /* View+Extension.swift in Sources */,
 				3B569D9A2A89EE3C00AC9DA1 /* SignUpView.swift in Sources */,
 				3B8A47C52A8CDCC100CC0A00 /* UpcommingBillRow.swift in Sources */,
+				3BE1C9F62A932A2B00485EAD /* WeekView.swift in Sources */,
 				3B8A47BF2A8CD1B600CC0A00 /* SegmentButton.swift in Sources */,
+				3BE1C9DB2A9322E900485EAD /* Week.swift in Sources */,
+				3BE1C9E12A9323DF00485EAD /* TimeDirection.swift in Sources */,
+				3BE1C9E42A93242C00485EAD /* Color+Extension.swift in Sources */,
 				3BE1C9BE2A8DEEE900485EAD /* BudgetsView.swift in Sources */,
 				3B569D4D2A88E8B300AC9DA1 /* TrackizerApp.swift in Sources */,
 				3BE1C9CA2A9310BD00485EAD /* SubscriptionCell.swift in Sources */,
+				3BE1C9F92A932B1B00485EAD /* WeeksTabView.swift in Sources */,
 				3B8A47C72A8CE0C900CC0A00 /* StatusButton.swift in Sources */,
 				3B8A47BB2A8CC43B00CC0A00 /* MainTabView.swift in Sources */,
+				3BE1C9EE2A93251300485EAD /* CornerRadiusStyle.swift in Sources */,
+				3BE1C9E62A93244700485EAD /* Date+Extension.swift in Sources */,
+				3BE1C9DD2A93230B00485EAD /* WeekStore.swift in Sources */,
 				3B8A47C12A8CD40700CC0A00 /* SubscriptionModel.swift in Sources */,
+				3BE1C9F42A93275700485EAD /* WeeklyHeaderView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
