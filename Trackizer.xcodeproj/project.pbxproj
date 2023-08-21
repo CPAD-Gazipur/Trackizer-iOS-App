@@ -37,6 +37,8 @@
 		3BE1C9C02A8DEF0000485EAD /* BudgetModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BE1C9BF2A8DEF0000485EAD /* BudgetModel.swift */; };
 		3BE1C9C22A8E16F800485EAD /* BudgetRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BE1C9C12A8E16F800485EAD /* BudgetRow.swift */; };
 		3BE1C9C42A90C40200485EAD /* ArcModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BE1C9C32A90C40200485EAD /* ArcModel.swift */; };
+		3BE1C9C82A90CB6700485EAD /* CalenderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BE1C9C72A90CB6700485EAD /* CalenderView.swift */; };
+		3BE1C9CA2A9310BD00485EAD /* SubscriptionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BE1C9C92A9310BD00485EAD /* SubscriptionCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -91,6 +93,8 @@
 		3BE1C9BF2A8DEF0000485EAD /* BudgetModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BudgetModel.swift; sourceTree = "<group>"; };
 		3BE1C9C12A8E16F800485EAD /* BudgetRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BudgetRow.swift; sourceTree = "<group>"; };
 		3BE1C9C32A90C40200485EAD /* ArcModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArcModel.swift; sourceTree = "<group>"; };
+		3BE1C9C72A90CB6700485EAD /* CalenderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalenderView.swift; sourceTree = "<group>"; };
+		3BE1C9C92A9310BD00485EAD /* SubscriptionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubscriptionCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -194,6 +198,7 @@
 		3B569D782A88E98F00AC9DA1 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				3BE1C9C62A90CB4600485EAD /* Calender */,
 				3BE1C9BC2A8DEED600485EAD /* Budgets */,
 				3B569D7F2A88E9FD00AC9DA1 /* MainTab */,
 				3B569D7E2A88E9F500AC9DA1 /* Home */,
@@ -239,6 +244,7 @@
 				3B8A47C62A8CE0C900CC0A00 /* StatusButton.swift */,
 				3BE1C9BA2A8DE64800485EAD /* ArcShape.swift */,
 				3BE1C9C12A8E16F800485EAD /* BudgetRow.swift */,
+				3BE1C9C92A9310BD00485EAD /* SubscriptionCell.swift */,
 			);
 			path = UICommon;
 			sourceTree = "<group>";
@@ -276,6 +282,14 @@
 				3BE1C9BD2A8DEEE900485EAD /* BudgetsView.swift */,
 			);
 			path = Budgets;
+			sourceTree = "<group>";
+		};
+		3BE1C9C62A90CB4600485EAD /* Calender */ = {
+			isa = PBXGroup;
+			children = (
+				3BE1C9C72A90CB6700485EAD /* CalenderView.swift */,
+			);
+			path = Calender;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -418,6 +432,7 @@
 				3B8A47C32A8CDC1900CC0A00 /* SubscriptionHomeRow.swift in Sources */,
 				3B569D982A89E4FF00AC9DA1 /* SignInView.swift in Sources */,
 				3B569D902A89D61D00AC9DA1 /* SecondaryButton.swift in Sources */,
+				3BE1C9C82A90CB6700485EAD /* CalenderView.swift in Sources */,
 				3B569D8A2A88ED3800AC9DA1 /* UIExtension.swift in Sources */,
 				3BE1C9C42A90C40200485EAD /* ArcModel.swift in Sources */,
 				3B569D8C2A88F72E00AC9DA1 /* WelcomeView.swift in Sources */,
@@ -430,6 +445,7 @@
 				3B8A47BF2A8CD1B600CC0A00 /* SegmentButton.swift in Sources */,
 				3BE1C9BE2A8DEEE900485EAD /* BudgetsView.swift in Sources */,
 				3B569D4D2A88E8B300AC9DA1 /* TrackizerApp.swift in Sources */,
+				3BE1C9CA2A9310BD00485EAD /* SubscriptionCell.swift in Sources */,
 				3B8A47C72A8CE0C900CC0A00 /* StatusButton.swift in Sources */,
 				3B8A47BB2A8CC43B00CC0A00 /* MainTabView.swift in Sources */,
 				3B8A47C12A8CD40700CC0A00 /* SubscriptionModel.swift in Sources */,

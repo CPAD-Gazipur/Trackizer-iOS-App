@@ -23,6 +23,11 @@ struct MainTabView: View {
                     .frame(width: .screenWidth,height: .screenHeight)
             }
             
+            else if(selectTab == 2){
+                CalenderView()
+                    .frame(width: .screenWidth,height: .screenHeight)
+            }
+            
             VStack{
                 
                 Spacer()
